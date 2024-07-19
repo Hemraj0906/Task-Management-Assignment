@@ -1,0 +1,73 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formLabel {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+.formInput{
+    width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.formTextarea{
+     width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.formSelect{
+     width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.formTextarea {
+  resize: vertical;
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.cancelButton {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancelButton:hover {
+  background-color: #5a6268;
+}

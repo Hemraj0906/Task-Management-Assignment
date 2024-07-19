@@ -1,0 +1,75 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+.loginForm {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  border: 1px solid #ddd;
+}
+
+.loginHeading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitButton {
+ 
+   background-color: #4caf50; 
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 0.1rem; 
+   margin-left: 5px; 
+  width: 105%;
+}
+
+.submitButton:hover {
+  background-color: #388e3c;
+}
+
+.loginLinkContainer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.loginLink {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}

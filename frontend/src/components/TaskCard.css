@@ -1,0 +1,87 @@
+ 
+
+.card {
+  border: 1px solid gray;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  background-color: #fff;
+  width: 180px;
+  position: relative; 
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card .status-strip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px; 
+  width: 100%;
+  background-color: green; 
+  border-radius: 8px 8px 0 0; 
+}
+
+.card h3 {
+  margin: 0 0 12px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.card p strong {
+  color: #000;
+}
+
+.card .icon-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.card .icon-container .icon {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s;
+  font-size: 1.2em; 
+}
+
+.card .icon-container .icon.update-icon {
+  color: #007bff;
+}
+
+.card .icon-container .icon.update-icon:hover {
+  color: #0056b3;
+}
+
+.card .icon-container .icon.delete-icon {
+  color: #dc3545;
+  margin-left: 100px;
+}
+
+.card .icon-container .icon.delete-icon:hover {
+  color: #c82333;
+}
+
+.chip {
+    border: 1px solid gray;
+    background-color:gainsboro;
+    width: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+  
+} 
+ 

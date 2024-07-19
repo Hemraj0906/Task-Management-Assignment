@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.addTaskButton {
+  margin-bottom: 16px;
+  background-color: aqua;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.addTaskButton:hover {
+  background-color: #00c8c8;
+}
+
+.pipelineContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.pipeline {
+  background: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .pipelineContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
